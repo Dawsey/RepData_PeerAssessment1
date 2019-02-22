@@ -219,7 +219,7 @@ The following distribution demonstrates a potentially more symmetrical view when
         theme_bw()
 ```
 
-![](PA1_template_files/figure-html/Density Plot-1.png)<!-- -->
+![](PA1_template_files/figure-html/DensityPlot-1.png)<!-- -->
 
 ## Are there differences in activity patterns between weekdays and weekends?
 For this part the `weekdays()` function may be of some help here. Use the data set with the filled-in missing values for this part.
@@ -241,5 +241,5 @@ weekActivity <- dataNew %>%
     xyplot(Nsteps ~ interval | weekType, data = weekActivity, type = "l", layout = c(1,2), ylab = "Number of steps") # show points
 ```
 
-![](PA1_template_files/figure-html/Weekday Comparison-1.png)<!-- -->
+![](PA1_template_files/figure-html/WeekdayComparison-1.png)<!-- -->
 
